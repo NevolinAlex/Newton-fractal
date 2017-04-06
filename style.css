@@ -1,0 +1,42 @@
+
+.block1{
+	float: left;
+	border: solid 1px black;
+	background-color: #ccc;
+}
+
+.block2{
+	border: solid 1px black;
+	background-color: #ccc;
+	float: left;
+	
+}
+
+
+#TitleArea{
+	text-align: center;
+}
+
+h1{
+	font-size: 130%;
+
+}
+#Options{
+	font-size: 120%;
+}
+
+#block3{
+	width: 1px;
+	border: solid 1px white;
+	float: left;
+}
+#but{
+	margin-top: 5px;
+	font-size: 90%;
+}
+#copyright {
+	position: [I]justfily[/I];
+	bottom: 1em;
+	right: 1em;
+	text-align: center;
+}

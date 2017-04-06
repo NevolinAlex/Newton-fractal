@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newton Fractal</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href= "style.css">
+</head>
+<body onload = "run()">
+	<div class = "block1"> 
+		<h1>Options: </h1>
+		<div id = "Options">
+			<label for="n">Number of iterations:</label>
+			<input type="text" id="Iterations" value="100" size="1"></input>		
+			<form>
+				<input type="radio" name="ChoseFill" value="Classic" checked="checked">Classic<br>
+				<input type="radio" name="ChoseFill" value="Level">Level<br>
+				<input type="radio" name="ChoseFill" value="Zebra">Zebra<br>
+				<input id = "but" type="button" value="Build fractal" onclick="run()">
+			</form>
+		</div>	
+	</div>
+	<div id = "block3"></div>
+	<div class = "block2"> 
+		<h1 id = "TitleArea">Newton Fractal</h1>
+		<canvas id="canvas" height="800" width="800" ></canvas>
+	</div>
+	
+</body>
+</html>
